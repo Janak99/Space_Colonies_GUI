@@ -1,5 +1,4 @@
 package spacecolonies;
-
 /**
  * Class Planet : Holds planet details for immigation
  * 
