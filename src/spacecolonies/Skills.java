@@ -51,4 +51,18 @@ package spacecolonies;
       public int getTechnology() {
             return technology;
       }
+
+      /** Return true if this attributes are less than parameter attributes */
+      public boolean isBelow(Skills other) {
+          return (this.getAgriculture() <= other.getAgriculture() && this
+                  .getMedical() <= other.getMedical() && this
+                          .getTechnology() <= other.getTechnology());
+      }
+
+      /** Return true if this skills object equals argument skills object */
+      public boolean equals(Object obj) {
+          return (this.getAgriculture() == ((Skills) obj).getAgriculture() && this
+                  .getMedical() == ((Skills) obj).getMedical() && this
+                          .getTechnology() == ((Skills) obj).getTechnology());
+      }
  }
