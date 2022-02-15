@@ -107,7 +107,9 @@ public class Planet implements Comparable<Planet> {
                                 .getPopulation());
     }
 
-    /** Compare planets based on availibility */
+    /** Compare planets based on availibility 
+    * @return -1 if this < other, 0 if equal, 1 if this > other
+    */
     public int compareTo(Planet other) {
         return Integer.compare(this.getAvailibility(), other.getAvailibility());
     }
