@@ -4,7 +4,6 @@ package spacecolonies;
  * Class Skills : Holds skill values and formats skills to string output
  * 
  * @author Janak Majeethia
- * @version 02/10/2022
  */
 
  public class Skills{

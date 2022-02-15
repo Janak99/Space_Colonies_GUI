@@ -7,9 +7,7 @@ import list.AList;
 /**
  * Space Window class
  * 
- * @author Dilan Prasad
- * @version 2018.11.24
- *
+ * @author Janak Majeethia
  */
 public class SpaceWindow {
 

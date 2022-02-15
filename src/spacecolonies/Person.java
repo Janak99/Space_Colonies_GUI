@@ -4,7 +4,6 @@ package spacecolonies;
  * Class Person : Holds individuals' names and traits and preferences for immigration.
  * 
  * @author  Janak Majeethia
- * @version 02/10/2022
  */
 
  public class Person {

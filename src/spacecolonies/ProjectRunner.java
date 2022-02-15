@@ -2,6 +2,11 @@ package spacecolonies;
 
 import java.io.FileNotFoundException;
 
+/**
+ * ProjectRunner Class : Main execution point for project
+ * 
+ * @author Janak Majeethia
+ */
 public class ProjectRunner {
 
     public static void main(String[] args)

@@ -3,7 +3,6 @@ package spacecolonies;
  * Class Planet : Holds planet details for immigation
  * 
  * @author Janak Majeethia
- * @version 02/10/2022
  */
 public class Planet implements Comparable<Planet> {
     private String name;
@@ -12,7 +11,20 @@ public class Planet implements Comparable<Planet> {
     private int popSize;
     private final int capacity;
 
-    /** Planet constructor */
+    /**
+     * Main Planet constructor
+     * 
+     * @param planetName
+     *                   name of planet
+     * @param planetAgri
+     *                   minimum agriculture skill
+     * @param planetMedi
+     *                   minimum medical skill
+     * @param planetTech
+     *                   minimum technical skill
+     * @param planetCap
+     *                   planets capacity
+     */
     public Planet(
             String planetName,
             int planetAgri,

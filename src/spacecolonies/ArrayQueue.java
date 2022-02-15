@@ -5,7 +5,8 @@ import queue.EmptyQueueException;
 import queue.QueueInterface;
 
 /**
- * ArrayQueue data structure holds queue of Planet Applicants
+ * ArrayQueue Class : data structure holds queue of Planet Applicants
+ * 
  * @author Janak Majeethia
  */
 public class ArrayQueue<T> implements QueueInterface<T> {
